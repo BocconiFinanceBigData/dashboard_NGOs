@@ -1,0 +1,22 @@
+ Ignore raw data
+sigwatch_data/
+*.dta
+
+# Don't ignore processed data and wordcloud images
+!data/processed_*.pkl
+!data/wordcloud_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
