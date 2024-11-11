@@ -40,7 +40,6 @@ ngo_df = results['ngo_distribution']
 company_df = results['company_distribution']
 companies_analysis = results['companies_analysis']
 country_activity = results['country_activity']
-wordcloud = results['wordcloud']
 
 # Layout
 col1, col2 = st.columns(2)
